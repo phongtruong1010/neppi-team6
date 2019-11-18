@@ -1,0 +1,27 @@
+<!--https://data-flair.training/blogs/javascript-project-to-do-list/-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <h2 style="margin:5px">To Do List</h2>
+        <img src="image/bars-solid.svg" id="menu" width="50" height="50">
+      </nav>
+      <div class="profi">
+        <img src="image/profile.png" id="profile" width="150" height="100">
+        <img src="image/thermometer-full-solid.svg" id="status" width="150" height="100">
+      </div>
+      <br>
+      <input type="text" id="myInput" placeholder="You forget something...?">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <ul id="myUL">
+      
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
+</html>
